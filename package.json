@@ -1,0 +1,12 @@
+{
+  "name": "steam-hour-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "steam-user": "^4.28.0",
+    "steam-totp": "^2.1.2"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
