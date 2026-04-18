@@ -5,6 +5,7 @@ const client = new SteamUser();
 const logOnOptions = {
     accountName: process.env.STEAM_USERNAME,
     password: process.env.STEAM_PASSWORD,
+     twoFactorCode: "659WC",
 };
 
 // Если у тебя есть Shared Secret, добавь его в настройки Render, и код введется сам
